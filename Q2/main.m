@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 
-cd '.\model';
+cd './model';
 myRobot_2dof = importrobot('open_manipulator_2DOF.urdf.xacro');
 myRobot_2dof.DataFormat = 'column';
 gravityVec = [0; 0; -9.80665];
